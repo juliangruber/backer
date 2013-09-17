@@ -2,6 +2,8 @@
 
 wip distributed backup / file mirroring tool
 
+[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.1.0/dist/gittip.png)](https://www.gittip.com/juliangruber/)
+
 ## Idea
 
 Like bittorrent sync, but open source and in node.js, so it runs on SmartOS too.
