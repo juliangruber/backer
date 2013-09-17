@@ -56,6 +56,12 @@ only transfor needs to be encrypted.
 * [roderwang/node-webkit](https://github.com/rogerwang/node-webkit/wiki/Tray)
   * [shama/nodewebkit](https://github.com/shama/nodewebkit) (npm installer)
 
+## Collaborators
+
+* [maxogden](https://github.com/maxogden)
+* [hughsk](https://github.com/hughsk)
+* [dominictarr](https://github.com/dominictarr)
+
 ## License
 
 MIT
