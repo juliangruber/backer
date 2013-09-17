@@ -39,6 +39,9 @@ Problem: efficient tree diffing
 Since **backer** is only used for transferring data and never stores it on any server/computer but the user's,
 only transfor needs to be encrypted.
 
+Encrypting your own harddrive is out of scope and there's plenty of tools that do this,
+one popular being [truecrypt](http://www.truecrypt.org/).
+
 * Maybe public/private key cryptography?
 
 ## Resources
