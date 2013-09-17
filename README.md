@@ -31,6 +31,8 @@ The filesystem is represented as a merkle tree, so **backer** can efficiently fi
 On connection sync using merkle trees, then maybe use [scuttlebutt](http://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf)
 and only send file diffs.
 
+Problem: efficient tree diffing
+
 ## Encryption
 
 Since **backer** is only used for transferring data and never stores it on any server/computer but the user's,
