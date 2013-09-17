@@ -6,7 +6,14 @@ wip distributed backup / file mirroring tool
 
 ## Idea
 
-Like bittorrent sync, but open source and in node.js, so it runs on SmartOS too.
+Mirror your files between all your computers and servers, so when a harddrive breaks or a computer gets stolen
+you don't lose anything.
+
+Like [bittorrent sync](http://labs.bittorrent.com/experiments/sync.html), but open source and in node.js,
+so it runs on SmartOS too.
+
+Like [dropbox](https://www.dropbox.com/), but stores your data only on _your_ machines.
+No third party - except possibly internet providers - involved.
 
 ## Possible features
 
