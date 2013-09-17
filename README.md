@@ -64,6 +64,8 @@ only transfor needs to be encrypted.
 * [rvagg](https://github.com/rvagg)
 * [StarBurst1977](https://github.com/StarBurst1977)
 * [joelcipriano](https://github.com/joelcipriano)
+* [silvinci](https://github.com/silvinci)
+* [minuteman3](https://github.com/minuteman3)
 * you?
 
 There's a lot still to be figured out, so if you either _are_ a mad scientist that juggles chainsaws while writing
