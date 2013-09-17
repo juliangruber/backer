@@ -46,3 +46,7 @@ only transfor needs to be encrypted.
 * [btsync](http://labs.bittorrent.com/experiments/sync/technology.html)
 * [dht](http://engineering.bittorrent.com/2013/01/22/bittorrent-tech-talks-dht/)
 * [delta encoding](http://en.wikipedia.org/wiki/Delta_encoding)
+
+## License
+
+MIT
