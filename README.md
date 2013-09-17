@@ -11,6 +11,7 @@ Like bittorrent sync, but open source and in node.js, so it runs on SmartOS too.
 * revisions
 * webgui
 * public sharing
+* collaborative live editing? maybe just using the file system limits too much
 
 ## Data structure
 
