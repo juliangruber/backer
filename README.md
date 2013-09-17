@@ -47,6 +47,43 @@ one popular being [truecrypt](http://www.truecrypt.org/).
 
 * Maybe public/private key cryptography?
 
+## JS api
+
+For maximum composability the transport part of the api will just be a duplex
+stream that is to be piped to another **backer**'s duplex stream. This way it
+works over tcp, websockets, *in memory*, or over any another network or
+streaming interface.
+
+```js
+var a = backer(__dirname + '/a').createStream();
+var b = backer(__dirname + '/b').createStream();
+a.pipe(b).pipe(a);
+```
+
+Over tcp it would look like this:
+
+```js
+// computer A
+var backer = require('backer');
+
+var back = backer(__dirname);
+net.createServer(function(con) {
+  con.pipe(back.createStream()).pipe(con);
+}).listen(PORT);
+
+// computer B
+var backer = require('backer');
+var reconnect = require('reconnect');
+
+var back = backer(__dirname);
+reconnect(function(con) {
+  con.pipe(back.createStream()).pipe(con);
+}).listen(PORT);
+```
+
+There will be events emitted on the **backer** instance, which can then for
+example be fed to a web frontend.
+
 ## Resources
 
 * [scuttlebutt](http://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf)
