@@ -52,6 +52,8 @@ only transfor needs to be encrypted.
 ## Possible dependencies
 
 * [dominictarr/merkle](https://github.com/dominictarr/merkle)
+* [roderwang/node-webkit](https://github.com/rogerwang/node-webkit/wiki/Tray)
+  * [shama/nodewebkit](https://github.com/shama/nodewebkit) (npm installer)
 
 ## License
 
