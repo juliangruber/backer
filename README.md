@@ -61,6 +61,10 @@ only transfor needs to be encrypted.
 * [maxogden](https://github.com/maxogden)
 * [hughsk](https://github.com/hughsk)
 * [dominictarr](https://github.com/dominictarr)
+* you?
+
+There's a lot still to be figured out, so if you either _are_ a mad scientist that juggles chainsaws while writing
+distributed systems, or want to be _come one_, this is the right place for you!
 
 ## License
 
