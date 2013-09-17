@@ -49,6 +49,8 @@ only transfor needs to be encrypted.
 * [delta encoding](http://en.wikipedia.org/wiki/Delta_encoding)
 * [merkle tree](http://en.wikipedia.org/wiki/Merkle_tree)
 * [nodedrop (failed but tried the same)](https://github.com/dominictarr/nodedrop)
+* [Build your own private, encrypted, open-source Dropbox-esque sync folder](https://gist.github.com/Tho85/6045429)
+* [unison research papers (11)](http://www.cis.upenn.edu/~bcpierce/papers/index.shtml#File%20Synchronization)
 
 ## Possible dependencies
 
