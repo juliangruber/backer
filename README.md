@@ -15,11 +15,14 @@ so it runs on SmartOS too.
 Like [dropbox](https://www.dropbox.com/), but stores your data only on _your_ machines.
 No third party - except possibly internet providers - involved.
 
+## Associated projects
+
+* [backer-menubar](https://github.com/No9/backer-menubar)
+
 ## Possible features
 
 * revisions
 * webgui
-* menubar application
 * public sharing
 * collaborative live editing? maybe just using the file system limits too much
 
