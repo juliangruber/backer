@@ -48,6 +48,7 @@ only transfor needs to be encrypted.
 * [dht](http://engineering.bittorrent.com/2013/01/22/bittorrent-tech-talks-dht/)
 * [delta encoding](http://en.wikipedia.org/wiki/Delta_encoding)
 * [merkle tree](http://en.wikipedia.org/wiki/Merkle_tree)
+* [nodedrop (failed but tried the same)](https://github.com/dominictarr/nodedrop)
 
 ## Possible dependencies
 
