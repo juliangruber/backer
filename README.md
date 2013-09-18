@@ -45,10 +45,26 @@ The filesystem is represented as a merkle tree, so **backer** can efficiently fi
 
 ## Replication
 
-On connection sync using merkle trees, then maybe use [scuttlebutt](http://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf)
-and only send file diffs.
+### On connection
 
-Problem: efficient tree diffing
+When two or more nodes start replicating (i.e. mirroring, syncing) they need to figure out how
+their files differ, so they can exchange only what they really have to.
+
+The most efficient way to do this - as far as I know - is to create a [merkle
+tree](http://en.wikipedia.org/wiki/Merkle_tree) (also known as hash tree) representing all
+the files and directories in your sync folder.
+
+Since the file system is a tree this is a perfect fit!
+
+When replication is kicked off, both nodes exchange their top hash, the hash of the root node.
+If that differs, they start going down the tree (i.e. going deeper into directories) and exchange
+hashes until the know which files are different and which are the same.
+
+Then the individual files are diffed and those partial changes are exchanged and applied.
+
+### On further changes
+
+TODO
 
 ## Encryption
 
