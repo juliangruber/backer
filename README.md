@@ -15,6 +15,19 @@ so it runs on SmartOS too.
 Like [dropbox](https://www.dropbox.com/), but stores your data only on _your_ machines.
 No third party - except possibly internet providers - involved.
 
+## Road map
+
+* ✘ merkle tree representation of sync folder ([#7](https://github.com/juliangruber/backer/issues/7))
+* ✘ diff merkle trees to figure out changed files
+* ✘ simple but slow syncing
+* ✘ only send diffs for more performance
+* ✘ watch files and keep tree up to date
+* ✘ replicate tree changes
+* ✘ simple responsive web frontend
+* ✘ mac os menu bar application
+* ✘ installer
+* ✘ public facing website
+
 ## Associated projects
 
 * [backer-menubar](https://github.com/No9/backer-menubar)
