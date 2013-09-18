@@ -36,9 +36,7 @@ No third party - except possibly internet providers - involved.
 ## Possible features
 
 * revisions
-* webgui
 * public sharing
-* collaborative live editing? maybe just using the file system limits too much
 
 ## Data structure
 
