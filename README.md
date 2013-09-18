@@ -31,6 +31,7 @@ No third party - except possibly internet providers - involved.
 ## Associated projects
 
 * [backer-menubar](https://github.com/No9/backer-menubar)
+* [backer-frontend](https://github.com/juliangruber/backer-frontend)
 
 ## Possible features
 
