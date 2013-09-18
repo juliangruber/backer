@@ -37,6 +37,7 @@ No third party - except possibly internet providers - involved.
 
 * revisions
 * public sharing
+* relays ([#6](https://github.com/juliangruber/backer/issues/6))
 
 ## Data structure
 
