@@ -1,21 +1,28 @@
 {
-  "name" : "backer",
-  "description" : "Distributed backup / file mirroring tool",
-  "version" : "0.0.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/juliangruber/backer.git"
+  "name": "backer",
+  "description": "Distributed backup / file mirroring tool",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/backer.git"
   },
   "homepage": "https://github.com/juliangruber/backer",
-  "main" : "index.js",
-  "scripts" : {
-    "test" : "tape test/*.js"
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
   },
-  "dependencies" : {},
-  "devDependencies" : {
-    "tape" : "*"
+  "dependencies": {
+    "once": "~1.2.0"
   },
-  "keywords": ["distributed","backup","mirroring","filesystem"],
+  "devDependencies": {
+    "tape": "*"
+  },
+  "keywords": [
+    "distributed",
+    "backup",
+    "mirroring",
+    "filesystem"
+  ],
   "author": {
     "name": "Julian Gruber",
     "email": "mail@juliangruber.com",
