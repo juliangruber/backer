@@ -123,6 +123,10 @@ example be fed to a web frontend.
 * [nodedrop (failed but tried the same)](https://github.com/dominictarr/nodedrop)
 * [Build your own private, encrypted, open-source Dropbox-esque sync folder](https://gist.github.com/Tho85/6045429)
 * [unison research papers (11)](http://www.cis.upenn.edu/~bcpierce/papers/index.shtml#File%20Synchronization)
+* [Direct Connect](http://en.wikipedia.org/wiki/Direct_Connect_(file_sharing))
+* [Tree Hash EXchange format (THEX)](http://web.archive.org/web/20080316033726/http://www.open-content.net/specs/draft-jchapweske-thex-02.html)
+* [General Verifiable Federation](http://www.waveprotocol.org/whitepapers/wave-protocol-verification)
+* [Explain Merkle Trees for use in Eventual Consistency](http://stackoverflow.com/a/5489731)
 
 ## Possible dependencies
 
