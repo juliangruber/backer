@@ -15,3 +15,5 @@ npm-debug.log
 *.sw*
 node_modules
 db
+example/a/.backer
+example/b/.backer
