@@ -2,8 +2,6 @@
 
 wip distributed backup / file mirroring tool
 
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.1.0/dist/gittip.png)](https://www.gittip.com/juliangruber/)
-
 ## Idea
 
 Mirror your files between all your computers and servers, so when a harddrive breaks or a computer gets stolen
