@@ -2,6 +2,8 @@
 
 wip distributed backup / file mirroring tool
 
+#### *Current state: Waiting for [cyphernet](https://github.com/dominictarr/cyphernet) as base building block.*
+
 ## Idea
 
 Mirror your files between all your computers and servers, so when a harddrive breaks or a computer gets stolen
