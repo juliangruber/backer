@@ -12,10 +12,10 @@
     "test": "tape test/*.js"
   },
   "dependencies": {
-    "once": "~1.2.0",
+    "once": "~1.4.0",
     "level-merkle": "0.0.8",
-    "level": "~0.16.0",
-    "level-sublevel": "~5.1.1"
+    "level": "~1.5.0",
+    "level-sublevel": "~6.6.1"
   },
   "devDependencies": {
     "tape": "*"
